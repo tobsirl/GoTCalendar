@@ -40,6 +40,7 @@
   width: 100%;
   color: white;
   padding: 10px;
+  font-size: 5rem;
   border: 2px solid black;
   transition: opacity 2.5s;
 }
