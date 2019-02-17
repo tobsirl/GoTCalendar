@@ -4,19 +4,13 @@ const calendarContainer = document.querySelector('.container');
 const calendarDays = 18;
 
 const openDoor = (path, event) => {
-  // const names = ['Paul Tobin'];
   event.target.parentNode.style.backgroundImage = `url(${path})`;
-  console.log(path);
   event.target.style.opacity = '0';
   event.target.style.backgroundColor = '#8ed6ee';
-  // event.target.innerHTML = names[0];
 };
 
 const displayName = (num, event) => {
-  console.log('Inside displayName');
-  console.log(num);
-  const names = ['Paul Tobin', 'Simon Hill'];
-  
+  const names = ['Paul Tobin', 'Simon Hill', 'Keith Powell'];
   event.target.parentNode.style.innerHTML = name;
   event.target.innerHTML = names[num];
 };
